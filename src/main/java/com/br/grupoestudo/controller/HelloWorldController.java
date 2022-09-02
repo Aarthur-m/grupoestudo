@@ -14,4 +14,8 @@ public class HelloWorldController {
                 "Agora se você sabe do teu valor, então vá atrás do que você merece, mas tem que estar preparado para apanhar. E nada de apontar dedos, dizer que você não consegue por causa dele ou dela, ou de quem quer que seja. Só covardes fazem isso e você não é covarde, você é melhor que isso." +
                 "\n arriegua";
     }
+    @GetMapping("arthur")
+    public String sayHelloArthur(){
+        return "salve arthur";
+    }
 }
